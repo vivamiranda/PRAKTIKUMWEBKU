@@ -10,10 +10,10 @@
     <h1>KAMPUS MERDEKA 2025</h1>
     <hr size="2px" color="black">
     <nav align="center">
-        <a href="indek.html">HOME</a>|
-        <a href="profile.html">KAMPUS</a>|
-        <a href="about.html">MERDEKA</a>|
-        <a href="login.html">LOGIN</a>
+        <a href="indek.php">HOME</a>|
+        <a href="profile.php">KAMPUS</a>|
+        <a href="about.php">MERDEKA</a>|
+        <a href="login.php">LOGIN</a>
     </nav>
     <center>
         <img src="https://tse2.mm.bing.net/th?id=OIP.PrL01xiANHes7EhoXk5wAwHaHa&pid=Api&P=0&h=180">
