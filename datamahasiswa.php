@@ -48,7 +48,7 @@
 </head>
 <body>
     <h1>Data Mahasiswa </h1>
-
+    <a href = "tambahdata.php"><button style="margin-bottom: 12px; backround-color: ; ">Tambah Data</button> </a>
     <table border="1" callspacing="0" callpadding="10">
         <tr>
             <th>no </th>
@@ -57,6 +57,8 @@
             <th>nim </th>
             <th>jurusan </th>
             <th>nohp </th>
+            <th>aksi </th>
+
         </tr>
         <?php 
         $i = 1;
@@ -64,11 +66,14 @@
         <tr>
             <td><?= $i ?></td>
             <td><img src="images/<?=$mhs['foto'];?> "alt="<?=$mhs['nama'];?>"width="100"></td>
-            <td><?=  $mhs ["nama"] ?></td>
-            <td><?=  $mhs ["nim"] ?></td>
-            <td><?=  $mhs ["jurusan"] ?></td>
-            <td><?=  $mhs ["nohp"] ?></td>
+            <td><?=  $mhs ['nama'] ?></td>
+            <td><?=  $mhs ['nim'] ?></td>
+            <td><?=  $mhs ['jurusan'] ?></td>
+            <td><?=  $mhs ['nohp'] ?></td>
+            <td><a href = "hapusdata.php/?id=<?=$mhs["id"]?>"><button
+            style="margin-bottom: 12px; background-color :lightpink ; " >Hapus</button> </a></td>
 
+    
         </tr>
         <?php $i++; } ?>
 </table>
